@@ -1,8 +1,19 @@
 import React from "react";
-import "./App.css";
+import Hero from "./components/Hero/Hero";
+import Navigation from "./components/Layout/Navigation/Navigation";
+import { Contaiiner, Section } from "./app.style";
 
 function App() {
-  return <div className="App">"test"</div>;
+  return (
+    <>
+      <Navigation />
+      <Contaiiner>
+        <Section>
+          <Hero />
+        </Section>
+      </Contaiiner>
+    </>
+  );
 }
 
 export default App;
