@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavList } from "./navigation.style";
 import { bubble as Menu } from "react-burger-menu";
 import { Slant as Hamburger } from "hamburger-react";
+import "./navigation.css";
 
 function Navigation() {
   const [show, setShow] = useState(false);
@@ -16,27 +17,23 @@ function Navigation() {
 
   return (
     <>
-      <Hamburger onClick={showSettingn} toggeld={show} toggle={setShow}>
+      {/* <Hamburger
+        onClick={showSettingn}
+        toggeld={show}
+        toggle={setShow}
+        className="navBtn"
+      >
         test
-      </Hamburger>
-      <Menu right pageWrapId={"page-wrap"} isOpen={show}>
-        <NavList style={{ backgroundColor: "#fff" }}>
-          <li>
-            <a href="#">TOP</a>
-          </li>
-          <li>
-            <a href="#">ABOUT</a>
-          </li>
-          <li>
-            <a href="#">SKILLS</a>
-          </li>
-          <li>
-            <a href="#">PROJECTS</a>
-          </li>
-          <li>
-            <a href="#">CONTACT</a>
-          </li>
-        </NavList>
+      </Hamburger> */}
+      <Menu
+        right
+        // isOpen={show}
+      >
+        <a href="#">TOP</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SKILLS</a>
+        <a href="#">PROJECTS</a>
+        <a href="#">CONTACT</a>
       </Menu>
     </>
   );
