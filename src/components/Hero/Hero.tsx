@@ -1,10 +1,10 @@
 import React from "react";
-import { Hello, Greeting } from "./hero.style";
+import { Section, Hello, Greeting } from "./hero.styles";
 import Social from "../Social/Social";
 
 function Hero() {
   return (
-    <div>
+    <Section>
       <Hello>Hello 🌸</Hello>
       <Greeting>
         I’m Sakura Nishiya.
@@ -13,7 +13,7 @@ function Hero() {
         solving.
       </Greeting>
       <Social />
-    </div>
+    </Section>
   );
 }
 

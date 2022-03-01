@@ -14,12 +14,16 @@
 }
 
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
 }
 
 .bm-cross {
   background: #bdc3c7;
+  width: 6px;
+  height: 36px;
 }
 
 .bm-menu-wrap {
@@ -33,8 +37,9 @@
 }
 
 .bm-morph-shape {
-  fill: rgb(255 178 237 / 20%);
-  filter: drop-shadow(0 0 30px rgb(255, 182, 182));
+  /* fill: rgb(255 178 237 / 20%); */
+  fill: #363636;
+  /* filter: drop-shadow(0 0 30px rgb(255, 182, 182)); */
   /* background: rgba(255, 178, 237, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(15.5px);
@@ -45,13 +50,18 @@
 /* Wrapper for item list */
 .bm-item-list {
   color: #b8b7ad;
-  padding: 0.8em;
-  height: auto;
 }
 
 /* Individual item */
 .bm-item {
   display: inline-block;
+  color: #fff;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.bm-item:hover {
+  opacity: 0.5;
 }
 
 /* Styling of overlay */

@@ -1,19 +1,19 @@
 import React, { useState } from "react";
-import { NavList } from "./navigation.style";
+import { NavList } from "./navigation.styles";
 import { bubble as Menu } from "react-burger-menu";
 import { Slant as Hamburger } from "hamburger-react";
 import "./navigation.css";
 
 function Navigation() {
   const [show, setShow] = useState(false);
-  const showSettingn = (e) => {
-    e.preventDefault();
-    // if (show) {
-    //   setShow(false);
-    // } else {
-    //   setShow(true);
-    // }
-  };
+  // const showSettingn = (event: ) => {
+  //   e.preventDefault();
+  // if (show) {
+  //   setShow(false);
+  // } else {
+  //   setShow(true);
+  // }
+  // };
 
   return (
     <>
@@ -27,13 +27,14 @@ function Navigation() {
       </Hamburger> */}
       <Menu
         right
+        width={"100%"}
         // isOpen={show}
       >
-        <a href="#">TOP</a>
-        <a href="#">ABOUT</a>
-        <a href="#">SKILLS</a>
-        <a href="#">PROJECTS</a>
-        <a href="#">CONTACT</a>
+        <a href="#top">TOP</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
       </Menu>
     </>
   );
