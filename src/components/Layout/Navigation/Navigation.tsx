@@ -1,37 +1,34 @@
 import React, { useState } from "react";
 import { NavList } from "./navigation.styles";
 import { bubble as Menu } from "react-burger-menu";
-import { Slant as Hamburger } from "hamburger-react";
 import "./navigation.css";
 
 function Navigation() {
   const [show, setShow] = useState(false);
-  // const showSettingn = (event: ) => {
-  //   e.preventDefault();
-  // if (show) {
-  //   setShow(false);
-  // } else {
-  //   setShow(true);
-  // }
-  // };
+  console.log(show);
+
+  const handleOnClose = () => {
+    setShow(false);
+  };
+
+  const isMenuOpen = () => {
+    return show;
+  };
 
   return (
     <>
-      {/* <Hamburger
-        onClick={showSettingn}
-        toggeld={show}
-        toggle={setShow}
-        className="navBtn"
-      >
-        test
-      </Hamburger> */}
       <Menu
         right
         width={"100%"}
-        // isOpen={show}
+        onStateChange={isMenuOpen}
+        onClose={handleOnClose}
+        pageWrapId={"page-wrap"}
+        outerContainerId={"outer-container"}
       >
         <a href="#top">TOP</a>
-        <a href="#about">ABOUT</a>
+        <a href="#about" onClick={handleOnClose}>
+          ABOUT
+        </a>
         <a href="#skills">SKILLS</a>
         <a href="#projects">PROJECTS</a>
         <a href="#contact">CONTACT</a>

@@ -9,6 +9,7 @@ export const Section = styled.div`
   padding: 3rem;
 
   h2 {
+    font-size: 3.5rem;
   }
 
   article {
