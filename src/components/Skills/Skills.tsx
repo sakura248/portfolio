@@ -20,7 +20,7 @@ function About() {
   return (
     <Section>
       <h2>SKILLS</h2>
-      <div>
+      <ul>
         <Block>
           <SiReact />
           <p>React</p>
@@ -73,7 +73,7 @@ function About() {
           <SiGit />
           <p>Git</p>
         </Block>
-      </div>
+      </ul>
     </Section>
   );
 }

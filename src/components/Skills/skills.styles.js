@@ -6,24 +6,34 @@ export const Section = styled.div`
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  padding: 3rem;
-
-  width: 70%;
+  padding: 0.5rem;
 
   h2 {
     font-size: 3.5rem;
   }
 
-  div {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
   }
 `;
 
-export const Block = styled.div`
+export const Block = styled.li`
+  width: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 0.75rem;
+  padding: 15px 0;
+
   svg {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+
+  p {
+    margin: 7px 0 0 0;
   }
 `;
 

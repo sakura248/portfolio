@@ -3,12 +3,17 @@
 body {
   margin: 0;
   font-family: Poppins;
-  background: #eee8e3;
+  background: #fffffe;
+  color: #2d334a;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  color: #272343;
 }
 
 code {

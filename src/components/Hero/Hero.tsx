@@ -4,7 +4,7 @@ import Social from "../Social/Social";
 
 function Hero() {
   return (
-    <Section>
+    <Section id="top">
       <Hello>Hello 🌸</Hello>
       <Greeting>
         I’m Sakura Nishiya.
