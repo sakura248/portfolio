@@ -19,6 +19,7 @@ export const Section = styled.div`
     align-items: flex-start;
   }
   label {
+    font-weight: 700;
   }
 
   input,
@@ -27,18 +28,27 @@ export const Section = styled.div`
     font-size: 1rem;
     padding: 1rem;
     margin-bottom: 15px;
+    background-color: #f2f4f6;
+    border: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
   }
 
   button {
     border-radius: 50px;
-    border: 1px solid #272343;
-    color: #272343;
-    margin: 20px;
-    background-color: transparent;
+    background-color: #00ebc7;
+    color: #00214d;
+    margin: 20px auto;
     cursor: pointer;
-    padding: 10px;
+    padding: 15px;
     font-size: 1rem;
+    font-weight: 700;
     width: 200px;
+    border: none;
   }
 
   button:hover {
@@ -48,11 +58,22 @@ export const Section = styled.div`
   button:disabled {
     background-color: #dedede;
     cursor: default;
-    border: 1px solid #696969;
-    color: #696969;
+    color: #424242;
+    border: none;
   }
 
   button:disabled:hover {
     opacity: 1;
+  }
+
+  div {
+    background-color: #feeefa;
+    border: 2px dotted #fac2ec;
+    border-radius: 10px;
+    padding: 50px 30px;
+
+    p {
+      text-align: center;
+    }
   }
 `;
