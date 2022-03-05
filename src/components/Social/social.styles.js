@@ -11,7 +11,6 @@ export const SocialLink = styled.a`
   color: black;
 
   &:hover {
-    opacity: 0.5;
     cursor: pointer;
   }
 `;

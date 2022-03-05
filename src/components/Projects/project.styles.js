@@ -5,53 +5,55 @@ export const Block = styled.div`
   flex-direction: column;
 
   div {
+    background-color: #f2f4f6;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 90%;
-    margin: 20px; auto;
+    justify-content: center;
+    width: 400px;
+    margin: 20px;
+    padding-top: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
 
     p {
       text-align: center;
     }
 
+    img {
+      width: 350px;
+    }
 
-  img {
-    width: 350px;
-  }
+    ul {
+      list-style: none;
+      display: flex;
+      padding: 0;
+      margin: 5px 0;
+    }
 
-  
-  ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 5px 0;
-  }
-
-  li {
-    background-color: #e3f6f5;
-    color: #272343;
-    padding: 2.5px 7.5px;
-    margin: 0 5px;
-    border-radius: 6px;
-    font-size: 0.9rem;
-  }
-
-  div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    a {
-      text-decoration: none;
-      color: #FF3495;
+    li {
+      background-color: #fffffe;
+      color: #00214d;
       padding: 2.5px 7.5px;
       margin: 0 5px;
+      border-radius: 6px;
+      font-size: 0.9rem;
     }
 
-    a:hover {
-      color: #272343;
+    div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      a {
+        text-decoration: none;
+        color: #ff5470;
+        padding: 2.5px 7.5px;
+        margin: 0 5px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
     }
   }
-
-}
 `;

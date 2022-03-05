@@ -4,16 +4,11 @@ export const Section = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
   padding: 3rem;
+  background-color: #f2f4f6;
 
-  h2 {
-    font-size: 3.5rem;
-  }
-
-  article {
-    font-size: 1.2rem;
-    text-align: center;
+  svg:hover {
+    fill: #00ebc7;
   }
 `;

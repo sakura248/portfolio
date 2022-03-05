@@ -6,11 +6,11 @@
   top: 36px;
 }
 .bm-burger-bars {
-  background: #373a47;
+  background: #00214d;
 }
 
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: #ff5470;
 }
 
 .bm-cross-button {
@@ -38,8 +38,8 @@
 }
 
 .bm-morph-shape {
-  fill: rgb(255 178 237 / 20%);
-  /* fill: #363636; */
+  /* fill: rgb(255 178 237 / 20%); */
+  fill: #fde24f;
   /* filter: drop-shadow(0 0 30px rgb(255, 182, 182)); */
   /* background: rgba(255, 178, 237, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -50,7 +50,7 @@
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
+  color: #00214d;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -58,19 +58,23 @@
 
 .bm-item-list svg {
   margin-top: 30px;
-  fill: #fff;
+  fill: #00214d;
+}
+.bm-item-list svg:hover {
+  fill: #ff5470;
+  opacity: 1;
 }
 
 /* Individual item */
 .bm-item {
   display: inline-block;
-  color: #fff;
+  color: #00214d;
   font-size: 3rem;
   text-decoration: none;
 }
 
 .bm-item:hover {
-  color: #ff3495;
+  text-decoration: underline;
 }
 
 /* Styling of overlay */

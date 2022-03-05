@@ -3,14 +3,18 @@ import styled from "styled-components";
 export const Section = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
   flex-direction: column;
   padding: 3rem;
+
+  svg:hover {
+    fill: #00ebc7;
+  }
 `;
 
 export const Hello = styled.h1`
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0 auto 2rem 0;
 `;
 
