@@ -5,10 +5,12 @@ const images = [
   {
     id: 1,
     src: "dummy.png",
-    title: "hogehoge",
+    title: "Favorite Quotes",
     skills: ["React", "APIs", "CSS"],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, assumenda.",
+    github: "Favorite-Quotes",
+    live: "https://stupefied-colden-e0851f.netlify.app/",
   },
   {
     id: 2,
@@ -18,6 +20,7 @@ const images = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, assumenda.",
     github: "",
+    live: "",
   },
   {
     id: 3,
@@ -60,11 +63,7 @@ function Project() {
             >
               GITHUB →
             </a>
-            <a
-              href={`https://github.com/sakura248/${item.github}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={item.live} target="_blank" rel="noopener noreferrer">
               VIEW LIVE →
             </a>
           </div>
