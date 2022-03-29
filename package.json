@@ -1,6 +1,6 @@
 {
-  "name": "Sakura Nishiya | portfolio",
-  "homepage": "https://sakuranishiya.com",
+  "name": "portfolio",
+  "homepage": "http://sakuranishiya.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
