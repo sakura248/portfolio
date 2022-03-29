@@ -1,0 +1,88 @@
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+.bm-burger-bars {
+  background: #00214d;
+}
+
+.bm-burger-bars-hover {
+  background: #ff5470;
+}
+
+.bm-cross-button {
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+  width: 6px;
+  height: 36px;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  padding: 4.5em 1.5em 0;
+  font-size: 1.15rem;
+  right: 0;
+}
+
+.bm-morph-shape {
+  /* fill: rgb(255 178 237 / 20%); */
+  fill: #fde24f;
+  /* filter: drop-shadow(0 0 30px rgb(255, 182, 182)); */
+  /* background: rgba(255, 178, 237, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15.5px);
+  -webkit-backdrop-filter: blur(15.5px);
+  border-radius: 10px; */
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #00214d;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.bm-item-list svg {
+  margin-top: 30px;
+  fill: #00214d;
+}
+.bm-item-list svg:hover {
+  fill: #ff5470;
+  opacity: 1;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  color: #00214d;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.bm-item:hover {
+  text-decoration: underline;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.hamburger-react {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
