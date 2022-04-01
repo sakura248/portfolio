@@ -5,10 +5,7 @@ export const Section = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  h2 {
-    font-size: 3.5rem;
-  }
+  padding-top: 3rem;
 
   h3 {
     margin: 0.75rem 0;

@@ -8,7 +8,7 @@ export const SocialWrapper = styled.div`
 
 export const SocialLink = styled.a`
   font-size: 2.5rem;
-  color: black;
+  // color: black;
 
   &:hover {
     cursor: pointer;

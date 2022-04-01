@@ -15,7 +15,7 @@ function Hero() {
     <Section id="top">
       <ContentsWrapper>
         <TextContainer>
-          <Hello>Hello 🌸</Hello>
+          <Hello>HELLO 🌸</Hello>
           <Greeting>
             I’m Sakura Nishiya.
             <br />

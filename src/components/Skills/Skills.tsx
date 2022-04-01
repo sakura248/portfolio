@@ -1,24 +1,24 @@
 import React from "react";
-import { Section, Block } from "./skills.styles";
-import {
-  SiReact,
-  SiRedux,
-  SiNodedotjs,
-  SiTypescript,
-  SiJavascript,
-  SiHtml5,
-  SiCss3,
-  SiTailwindcss,
-  SiMaterialui,
-  SiFirebase,
-  SiGit,
-} from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 import { ImAccessibility } from "react-icons/im";
+import {
+  SiCss3,
+  SiFirebase,
+  SiGit,
+  SiHtml5,
+  SiJavascript,
+  SiMaterialui,
+  SiNodedotjs,
+  SiReact,
+  SiRedux,
+  SiTailwindcss,
+  SiTypescript
+} from "react-icons/si";
+import { Block, Section } from "./skills.styles";
 
 function About() {
   return (
-    <Section>
+    <Section id="skills">
       <h2>SKILLS</h2>
       <ul>
         <Block>

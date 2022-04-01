@@ -4,19 +4,15 @@ export const Section = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
-  padding: 0.5rem;
-
-  h2 {
-    font-size: 3.5rem;
-  }
+  padding: 3rem;
 
   ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0;
+    max-width: 700px;
   }
 `;
 

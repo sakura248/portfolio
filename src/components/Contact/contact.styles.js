@@ -4,19 +4,15 @@ export const Section = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
   padding: 3rem;
-
-  h2 {
-    font-size: 3.5rem;
-  }
 
   form {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: flex-start;
+    max-width: 700px;
   }
   label {
     font-weight: 700;
@@ -28,7 +24,7 @@ export const Section = styled.div`
     font-size: 1rem;
     padding: 1rem;
     margin-bottom: 15px;
-    background-color: #f2f4f6;
+    background-color: #fffffe;
     border: none;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -36,23 +32,26 @@ export const Section = styled.div`
     font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI",
       "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
       "Helvetica Neue", sans-serif;
+    border: 1px solid black;
   }
 
   button {
     border-radius: 50px;
-    background-color: #00ebc7;
-    color: #00214d;
+    background-color: #fffffe;
+    color: #000;
     margin: 20px auto;
     cursor: pointer;
     padding: 15px;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 700;
-    width: 200px;
-    border: none;
+    width: 100%;
+    border: 2px solid #000;
+    transition: ease-out 200ms;
   }
 
   button:hover {
-    opacity: 0.7;
+    background-color: #000;
+    color: #fffffe;
   }
 
   button:disabled {
