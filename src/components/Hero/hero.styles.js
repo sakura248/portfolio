@@ -29,6 +29,7 @@ export const ContentsWrapper = styled.div`
 
   @media only screen and (min-width: 768px) {
     flex-direction: row;
+    padding-left: 3rem;
     width: 100%;
     padding: 0;
   }

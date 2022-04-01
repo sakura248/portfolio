@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { bubble as Menu } from "react-burger-menu";
 import Social from "../../Social/Social";
 import "./navigation.css";
+import { DesktopMenu } from "./navigation.styles";
 
 function Navigation() {
   const [isOpen, setOpen] = useState(false);
@@ -37,14 +38,14 @@ function Navigation() {
           <a href="#top" onClick={handleClose}>
             TOP
           </a>
-          <a href="#about" onClick={handleClose}>
-            ABOUT
-          </a>
           <a href="#skills" onClick={handleClose}>
             SKILLS
           </a>
           <a href="#projects" onClick={handleClose}>
             PROJECTS
+          </a>
+          <a href="#about" onClick={handleClose}>
+            ABOUT
           </a>
           <a href="#contact" onClick={handleClose}>
             CONTACT
@@ -53,16 +54,11 @@ function Navigation() {
         </Menu>
         {/* </NavList> */}
       </div>
-      <div className="desktop-menu">
+      <DesktopMenu className="desktop-menu">
         <ul>
           <li>
             <a href="#top" onClick={handleClose}>
               TOP
-            </a>
-          </li>
-          <li>
-            <a href="#about" onClick={handleClose}>
-              ABOUT
             </a>
           </li>
           <li>
@@ -76,12 +72,17 @@ function Navigation() {
             </a>
           </li>
           <li>
+            <a href="#about" onClick={handleClose}>
+              ABOUT
+            </a>
+          </li>
+          <li>
             <a href="#contact" onClick={handleClose}>
               CONTACT
             </a>
           </li>
         </ul>
-      </div>
+      </DesktopMenu>
     </>
   );
 }
