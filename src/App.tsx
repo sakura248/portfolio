@@ -1,12 +1,12 @@
 import React from "react";
-import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
-import Skills from "./components/Skills/Skills";
-import Projects from "./components/Projects/Projects";
-import Contact from "./components/Contact/Contact";
-import Navigation from "./components/Layout/Navigation/Navigation";
-import Footer from "./components/Layout/Footer/Footer";
 import { Container } from "./app.styles";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Hero from "./components/Hero/Hero";
+import Footer from "./components/Layout/Footer/Footer";
+import Navigation from "./components/Layout/Navigation/Navigation";
+import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
       <Navigation />
       <Container id="page-wrap">
         <Hero />
-        <About />
         <Skills />
         <Projects />
+        <About />
         <Contact />
         <Footer />
       </Container>
