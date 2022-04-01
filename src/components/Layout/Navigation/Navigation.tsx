@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-import Social from "../../Social/Social";
-
-import { NavList } from "./navigation.styles";
 import { bubble as Menu } from "react-burger-menu";
-
+import Social from "../../Social/Social";
 import "./navigation.css";
 
 function Navigation() {
@@ -17,34 +14,74 @@ function Navigation() {
     setOpen(!isOpen);
   };
 
+  // const toggleMenu = () => {
+  //   if (isOpen) {
+  //     setOpen(false);
+  //   } else {
+  //     setOpen(true);
+  //   }
+  // };
+
   return (
     <>
-      <Menu
-        right
-        width={"100%"}
-        onOpen={handleIsOpen}
-        onClose={handleIsOpen}
-        isOpen={isOpen}
-        pageWrapId={"page-wrap"}
-        outerContainerId={"outer-container"}
-      >
-        <a href="#top" onClick={handleClose}>
-          TOP
-        </a>
-        <a href="#about" onClick={handleClose}>
-          ABOUT
-        </a>
-        <a href="#skills" onClick={handleClose}>
-          SKILLS
-        </a>
-        <a href="#projects" onClick={handleClose}>
-          PROJECTS
-        </a>
-        <a href="#contact" onClick={handleClose}>
-          CONTACT
-        </a>
-        <Social />
-      </Menu>
+      <div className="mobile-menu">
+        <Menu
+          right
+          width={"100%"}
+          onOpen={handleIsOpen}
+          onClose={handleIsOpen}
+          isOpen={isOpen}
+          pageWrapId={"page-wrap"}
+          outerContainerId={"outer-container"}
+        >
+          <a href="#top" onClick={handleClose}>
+            TOP
+          </a>
+          <a href="#about" onClick={handleClose}>
+            ABOUT
+          </a>
+          <a href="#skills" onClick={handleClose}>
+            SKILLS
+          </a>
+          <a href="#projects" onClick={handleClose}>
+            PROJECTS
+          </a>
+          <a href="#contact" onClick={handleClose}>
+            CONTACT
+          </a>
+          <Social />
+        </Menu>
+        {/* </NavList> */}
+      </div>
+      <div className="desktop-menu">
+        <ul>
+          <li>
+            <a href="#top" onClick={handleClose}>
+              TOP
+            </a>
+          </li>
+          <li>
+            <a href="#about" onClick={handleClose}>
+              ABOUT
+            </a>
+          </li>
+          <li>
+            <a href="#skills" onClick={handleClose}>
+              SKILLS
+            </a>
+          </li>
+          <li>
+            <a href="#projects" onClick={handleClose}>
+              PROJECTS
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={handleClose}>
+              CONTACT
+            </a>
+          </li>
+        </ul>
+      </div>
     </>
   );
 }

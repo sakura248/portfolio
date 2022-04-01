@@ -9,14 +9,15 @@ export const Block = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
+
     margin: 20px;
     padding-top: 50px;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 
     p {
       text-align: center;
+      margin: 15px 35px;
     }
 
     img {
@@ -28,21 +29,24 @@ export const Block = styled.div`
       display: flex;
       padding: 0;
       margin: 5px 0;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     li {
       background-color: #fffffe;
       color: #00214d;
       padding: 2.5px 7.5px;
-      margin: 0 5px;
+      margin: 3px 5px;
       border-radius: 6px;
       font-size: 0.9rem;
     }
 
-    div {
+    .link-area {
       display: flex;
       flex-direction: row;
       justify-content: center;
+      padding: 0;
 
       a {
         text-decoration: none;
@@ -54,6 +58,21 @@ export const Block = styled.div`
       a:hover {
         text-decoration: underline;
       }
+
+      a::after {
+        content: "↗";
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+
+    div {
+      width: 400px;
     }
   }
 `;

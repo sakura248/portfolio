@@ -1,6 +1,6 @@
-import React, { useState, useRef, MutableRefObject } from "react";
+import emailjs from "@emailjs/browser";
+import React, { MutableRefObject, useRef, useState } from "react";
 import { Section } from "./contact.styles";
-import emailjs, { init } from "@emailjs/browser";
 
 function Contact() {
   const form = useRef() as MutableRefObject<HTMLFormElement>;
@@ -93,10 +93,10 @@ function Contact() {
               type="submit"
               // style={{ backgroundColor: "#FF3495", color: "#fffffe" }}
             >
-              SUBMIT
+              SEND A MESSAGE
             </button>
           ) : (
-            <button disabled>SUBMIT</button>
+            <button disabled>Please fill in!</button>
           )}
         </form>
       ) : (

@@ -6,9 +6,13 @@ export const Section = styled.div`
   align-items: center;
   flex-direction: column;
   padding: 3rem;
-  background-color: #f2f4f6;
+  background-color: #2c2c2c;
+  color: #fffffe;
+  svg {
+    fill: #fffffe;
+  }
 
   svg:hover {
-    fill: #00ebc7;
+    fill: #89d5ff;
   }
 `;
