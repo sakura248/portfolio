@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.div`
   position: relative;
+  padding-top: 3rem;
 
   article {
     max-width: 80%;
