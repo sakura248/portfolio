@@ -16,5 +16,9 @@ export const DesktopMenu = styled.div`
     text-decoration: none;
   }
 
+  a:hover {
+    color:#ff49a1;
+  }
+
   }
 `;
