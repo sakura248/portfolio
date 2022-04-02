@@ -1,4 +1,4 @@
-# Favorite Quotes
+# My portfolio
 
 [VIEW LIVE](https://sakuranishiya.com) 🚀
 
