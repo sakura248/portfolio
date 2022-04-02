@@ -19,8 +19,8 @@ function Hero() {
           <Greeting>
             I’m Sakura Nishiya.
             <br />
-            Front-end Developer who has background of project management and
-            problem solving.
+            Front-end developer who has background of improving UI/UX and
+            project management.
           </Greeting>
           <Social />
         </TextContainer>
