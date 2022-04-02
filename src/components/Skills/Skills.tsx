@@ -12,7 +12,7 @@ import {
   SiReact,
   SiRedux,
   SiTailwindcss,
-  SiTypescript
+  SiTypescript,
 } from "react-icons/si";
 import { Block, Section } from "./skills.styles";
 
@@ -31,7 +31,7 @@ function About() {
         </Block>
         <Block>
           <SiNodedotjs />
-          <p>Nod</p>
+          <p>Node.js</p>
         </Block>
         <Block>
           <SiTypescript />

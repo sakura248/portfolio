@@ -15,7 +15,7 @@ const images = [
       "Tailwind CSS",
     ],
     description:
-      "Do you have TV quote that you never forget? In this app, you can add/update your own favorite quotes from your favorite TV shows.",
+      "Do you have TV quote that you never forget? In this app, you can add/update your own favorite quotes from your favorite TV shows with your account.",
     github: "Favorite-Quotes",
     live: "https://stupefied-colden-e0851f.netlify.app/",
   },
@@ -23,9 +23,9 @@ const images = [
     id: 2,
     src: "wtwftw_all.png",
     title: "What To Wear For The Weather",
-    skills: ["仮"],
+    skills: ["React", "OpenWeatherAPI", "CSS3"],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, assumenda.",
+      "Have you ever wondered what to wear for the temperature? Here is the solution! This app suggests what kind of cloth to wear in your area in real time. You can also check hourly and weekly forecast. Of course, you can change the location.",
     github: "what-to-wear",
     live: "https://serene-haibt-90ec6e.netlify.app/",
   },
@@ -39,12 +39,23 @@ const images = [
   },
   {
     id: 4,
-    src: "dummy.png",
-    title: "仮",
-    skills: ["仮"],
-    description: "ほげほげほげほg",
-    github: "my-weather-app",
-    url: "https://serene-haibt-90ec6e.netlify.app/",
+    src: "myself.png",
+    title: "Show Myself",
+    skills: ["React", "CSS3"],
+    description:
+      "This is the first React app I made. The purpose of this website is just to show myself, since I'm not good at verbal explanation when it comes to my oneself. I designed the way I like, and put things I created or I love.",
+    github: "show-myself",
+    live: "https://quizzical-mclean-379071.netlify.app/",
+  },
+  {
+    id: 4,
+    src: "portfolio_all.png",
+    title: "My Portfolio Website",
+    skills: ["React", "TypeScript", "Styled Components"],
+    description:
+      "Designed and created by me! I used TypeScript to improve my skill.",
+    github: "portfolio",
+    // live: "https://sakuranishiya.com",
   },
 ];
 function Project() {

@@ -1,6 +1,6 @@
 import React from "react";
-import { Section } from "./footer.styles";
 import Social from "../../Social/Social";
+import { Section } from "./footer.styles";
 
 function Footer() {
   return (
