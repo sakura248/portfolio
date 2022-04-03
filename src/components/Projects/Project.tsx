@@ -9,7 +9,7 @@ const images = [
     skills: [
       "React",
       "Redux",
-      "Firebase Authentification",
+      "Firebase Authentication",
       "Firebase Firestore Database",
       "The Movie Database (TMDB) API",
       "Tailwind CSS",
