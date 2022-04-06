@@ -5,7 +5,7 @@ function About() {
   return (
     <Section id="about">
       <div className="ContentsWrapper">
-        <h2>ABOUT</h2>
+        <h2>About</h2>
         <article>
           Hi there! I'm Sakura Nishiya. I started my journey as a front-end
           developer and actively seeking employment! I'm skilled in{" "}

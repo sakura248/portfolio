@@ -19,7 +19,7 @@ import { Block, Section } from "./skills.styles";
 function About() {
   return (
     <Section id="skills">
-      <h2>SKILLS</h2>
+      <h2>Skills</h2>
       <ul>
         <Block>
           <SiReact />
