@@ -17,9 +17,9 @@ function Hero() {
         <TextContainer>
           <Hello>HELLO 🌸</Hello>
           <Greeting>
-            I’m Sakura Nishiya.
+            I’m Sakura.
             <br />
-            Front-end developer who has background of improving UI/UX and
+            Front-end developer who knows improving UI/UX and
             project management.
           </Greeting>
           <Social />
