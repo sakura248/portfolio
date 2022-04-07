@@ -50,7 +50,7 @@ export const Hello = styled.h1`
 
 export const Greeting = styled.p`
   font-size: 1.25rem;
-  margin: 0 auto 2.75rem 0;
+  margin: 0 auto 2.5rem 0;
 `;
 
 export const MyImg = styled.div`
@@ -90,5 +90,19 @@ export const SvgBG = styled.div`
     z-index: 2;
     right: 30%;
     top: 20%;
+  }
+`;
+
+export const GetInTouch = styled.div`
+  display: flex;
+  margin-bottom: 30px;
+
+  .resume {
+    margin-right: 15px;
+    text-decoration: none;
+
+    svg {
+      fill: none;
+    }
   }
 `;

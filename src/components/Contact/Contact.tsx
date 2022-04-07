@@ -89,12 +89,7 @@ function Contact() {
             onChange={onChangMessage}
           ></textarea>
           {isFilled.name && isFilled.email && isFilled.message ? (
-            <button
-              type="submit"
-              // style={{ backgroundColor: "#FF3495", color: "#fffffe" }}
-            >
-              SEND A MESSAGE
-            </button>
+            <button type="submit">SEND A MESSAGE</button>
           ) : (
             <button disabled>Please fill in!</button>
           )}

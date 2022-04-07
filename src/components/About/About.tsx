@@ -1,4 +1,5 @@
 import React from "react";
+import ResumeBtn from "../Button/ResumeBtn";
 import { Section, SvgBG } from "./about.styles";
 
 function About() {
@@ -7,30 +8,26 @@ function About() {
       <div className="ContentsWrapper">
         <h2>About</h2>
         <article>
-          Hi there! I'm Sakura Nishiya. I started my journey as a front-end
+          Hi there! I'm Sakura Nishiya. I embarked on a journey as a front-end
           developer and actively seeking employment! I'm skilled in{" "}
-          <span>HTML, Javascript, and React</span>. I'm passionate about coding
-          creating!
+          <span>React</span> and passionate about coding creating!
         </article>
         <article>
-          I have a 4 plus years experience as a Web Director (a kind of project
-          manager) and I've dedicated <span>UI/UX design</span> improvement
-          projects, <span>QA testing</span>, schedule and contents quality
-          management for some major enterprises in Japan. I also could learn
-          about design thinking, customer centric design and accessibility
-          design .e.g. color blindness.
+          I have 4 plus years of experience as a project manager and I've
+          dedicated myself to <span>UI/UX design</span> improvement projects,{" "}
+          <span>QA testing</span>, schedule, and contents quality management for
+          some major enterprises in Japan. Through these experiences, I also
+          learned about design thinking, customer centric design and
+          accessibility design .e.g. color blindness.
         </article>
         <article>
-          Working with those large enterprises as a web director have developed
+          Working with those large enterprises as a web director has developed
           my accountability and communication skill. However, I felt
-          incompleteness and I started having strongly desire to create by my
+          incompleteness, and I started having strong desire to create with my
           own hands and enough skills to jump into the businesses that resonates
           with me.
         </article>
-        <article>
-          I’m now looking for a junior developer position to finally kick start
-          my career and learn among professionals.
-        </article>
+        <ResumeBtn />
       </div>
       <SvgBG>
         <svg

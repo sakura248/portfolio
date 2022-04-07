@@ -7,10 +7,12 @@ export const SocialWrapper = styled.div`
 `;
 
 export const SocialLink = styled.a`
-  font-size: 2.5rem;
-  // color: black;
-
   &:hover {
     cursor: pointer;
+  }
+
+  svg {
+    height: 40px;
+    width: 40px;
   }
 `;

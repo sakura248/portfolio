@@ -1,7 +1,9 @@
 import React from "react";
+import ResumeBtn from "../Button/ResumeBtn";
 import Social from "../Social/Social";
 import {
   ContentsWrapper,
+  GetInTouch,
   Greeting,
   Hello,
   MyImg,
@@ -19,15 +21,16 @@ function Hero() {
           <Greeting>
             I’m Sakura.
             <br />
-            Front-end developer who knows improving UI/UX and
-            project management.
+            Front-end developer who knows improving UI/UX and project
+            management.
           </Greeting>
-          <Social />
+          <GetInTouch>
+            <ResumeBtn />
+            <Social />
+          </GetInTouch>
         </TextContainer>
         <MyImg>
-          {/* <div> */}
           <img src="/assets/portfolio.png" alt="Sakura Nishiya" />
-          {/* </div> */}
         </MyImg>
       </ContentsWrapper>
       <SvgBG>

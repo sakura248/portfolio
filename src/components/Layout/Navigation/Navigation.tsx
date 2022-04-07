@@ -52,7 +52,6 @@ function Navigation() {
           </a>
           <Social />
         </Menu>
-        {/* </NavList> */}
       </div>
       <DesktopMenu className="desktop-menu">
         <ul>

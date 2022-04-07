@@ -1,6 +1,6 @@
 import React from "react";
-import { SocialLink, SocialWrapper } from "./social.styles";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { SocialLink, SocialWrapper } from "./social.styles";
 
 function Social() {
   return (

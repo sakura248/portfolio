@@ -50,9 +50,9 @@ width: 90%;
     font-size: 0.9rem;
     }
 
-    li::before {
-      content: "# ";
-    }
+    // li::before {
+    //   content: "# ";
+    // }
 
     .link-area {
       display: flex;
@@ -80,10 +80,9 @@ width: 90%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-}
-
-
     }
+
+
   }
 
   @media only screen and (min-width: 768px) {
@@ -95,4 +94,19 @@ width: 90%;
       align-items: flex-start;
 
   }
+`;
+
+export const PjtImg = styled.div`
+
+    a {
+      position: relative
+    }
+    .static {
+      position:absolute;
+    }
+
+    .static:hover {
+      opacity:0;
+    }
+    }
 `;
