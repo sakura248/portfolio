@@ -15,8 +15,8 @@ function About() {
         <article>
           I have 4 plus years of experience as a project manager and I've
           dedicated myself to <span>UI/UX design</span> improvement projects,{" "}
-          <span>QA testing</span>, schedule, and contents quality management for
-          some major enterprises in Japan. Through these experiences, I also
+          <span>QA reviewing</span>, schedule, and contents quality management
+          for some major enterprises in Japan. Through these experiences, I also
           learned about design thinking, customer centric design and
           accessibility design .e.g. color blindness.
         </article>
